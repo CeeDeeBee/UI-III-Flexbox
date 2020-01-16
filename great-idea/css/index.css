@@ -270,3 +270,8 @@ footer div {
 	height: 15vh;
 	text-align: center;
 }
+
+/* Serices page styles */
+.services-header-img {
+	width: 100%;
+}
