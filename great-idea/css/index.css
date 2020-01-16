@@ -159,6 +159,7 @@ h5 {
 body {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	align-items: center;
 }
 
@@ -185,15 +186,18 @@ nav a {
 	text-decoration: none;
 }
 
-.logo {}
-
 /* header section styles */
 .header-section {
+	height: 55vh;
 	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	border-bottom: 1px solid black;
 }
 
 .header-section div {
+	width: 100%;
 	text-align: center;
 }
 
@@ -202,12 +206,9 @@ nav a {
 }
 
 .header-section button {
+	padding: 1% 7%;
 	font-size: 17px;
 	border: 1px solid black;
-}
-
-.header-section img {
-	width: 40%;
 }
 
 /* Styling for content area */
@@ -216,15 +217,22 @@ h2 {
 }
 
 .content {
-	border-bottom: 1px solid black;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
 }
 
 /* Styling for top two sections */
+.top-section-div {
+	height: 17vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .top-section {
 	width: 49%;
 }
-
-#features {}
 
 /* Styling for middle content image */
 .middle-img {
@@ -232,20 +240,33 @@ h2 {
 }
 
 /* Styling for bottom three sections */
-.bottom-section {
-	width: 31.6%;
+.bottom-section-div {
+	height: 20vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid black;
 }
 
-#product {}
+.bottom-section {
+	width: 33%;
+}
 
 /* Styling for contact section */
-#contact {}
+#contact {
+	height: 22vh;
+	width: 80%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
 
 #contact a {
-	font-size: 18px;
+	font-size: 17px;
 }
 
 /* Styling for footer */
-footer {
+footer div {
+	height: 15vh;
 	text-align: center;
 }
